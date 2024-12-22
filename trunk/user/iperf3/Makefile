@@ -1,11 +1,11 @@
 include $(ROOTDIR)/rules.mk
 
 PKG_NAME:=iperf
-PKG_VERSION:=3.11
+PKG_VERSION:=3.18
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://downloads.es.net/pub/iperf
-PKG_HASH:=de8cb409fad61a0574f4cb07eb19ce1159707403ac2dc01b5d175e91240b7e5f
+PKG_HASH:=c0618175514331e766522500e20c94bfb293b4424eb27d7207fb427b88d20bab
 
 PKG_FIXUP:=autoreconf
 
