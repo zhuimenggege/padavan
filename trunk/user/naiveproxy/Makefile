@@ -1,7 +1,7 @@
 include $(ROOTDIR)/rules.mk
 
 PKG_NAME:=naiveproxy
-PKG_VERSION:=114.0.5735.91-3
+PKG_VERSION:=v131.0.6778.86-1
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -11,7 +11,7 @@ define Download/$(PKG_NAME)-static
 	URL:=https://github.com/klzgrad/naiveproxy/releases/download/v$(PKG_VERSION)
 	URL_FILE:=$(STATIC_FILE)
 	FILE:=$(STATIC_FILE)
-	HASH:=8737c4a796ff2ecee3afbb42c345d313baeb774742c440b0d97a1124896f45b3
+	HASH:=ad1474d509e1ff39734eed28aa80db19ec4d2fc42d027fb8f11fff0332b06e49
 endef
 
 define Build/Prepare
