@@ -1,7 +1,7 @@
 include $(ROOTDIR)/rules.mk
 
 PKG_NAME:=socat
-PKG_VERSION:=1.7.4.4
+PKG_VERSION:=1.8.0.2
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=http://www.dest-unreach.org/socat/download
