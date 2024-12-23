@@ -11,9 +11,7 @@ ifdef CONFIG_RA_HW_NAT
 	$(MAKE) -C $(PKG_BUILD_DIR)/hw_nat $(MAKE_FLAGS) all
 endif
 endef
-
 $(eval $(call BuildPackage,utils))
-
 romfs:
 	$(INSTALL_DIR) $(ROMFSDIR)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/cpu_usage/cpu $(ROMFSDIR)/usr/bin/cpu
