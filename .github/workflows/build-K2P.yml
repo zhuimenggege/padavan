@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: dev
+          ref: main
       - uses: hendrikmuhs/ccache-action@v1.2
         with:
           key: ${{ matrix.target }}-${{ matrix.toolchain }}
